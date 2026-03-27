@@ -19,7 +19,7 @@ Une divulgation publique avant qu'un correctif soit disponible expose tous les u
 
 1. **Contactez le mainteneur** en privé via l'une de ces méthodes :
    - Email : [à compléter par le mainteneur]
-   - GitHub Security Advisory : [Onglet "Security" → "Report a vulnerability"](https://github.com/VOTRE_USER/GLPI-Bot-IA-Plugin/security/advisories/new)
+   - GitHub Security Advisory : [Onglet "Security" → "Report a vulnerability"](https://github.com/boscorelly/GLPI-Bot-IA-Plugin/security/advisories/new)
 
 2. **Incluez dans votre rapport** :
    - Description du problème et impact potentiel
