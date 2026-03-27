@@ -22,7 +22,7 @@ Si vous n'êtes pas à l'aise avec cette licence, ne soumettez pas de contributi
 
 ## 🐛 Signaler un bug
 
-1. Vérifiez que le bug n'est pas déjà signalé dans les [Issues](https://github.com/VOTRE_USER/GLPI-Bot-IA-Plugin/issues)
+1. Vérifiez que le bug n'est pas déjà signalé dans les [Issues](https://github.com/boscorelly/GLPI-Bot-IA-Plugin/issues)
 2. Ouvrez une nouvelle issue avec le template **Bug Report**
 3. Incluez :
    - Version de GLPI (`Administration → Informations système`)
@@ -37,7 +37,7 @@ Si vous n'êtes pas à l'aise avec cette licence, ne soumettez pas de contributi
 
 ## 💡 Proposer une fonctionnalité
 
-1. Ouvrez une [Discussion](https://github.com/VOTRE_USER/GLPI-Bot-IA-Plugin/discussions) pour en discuter avant de coder
+1. Ouvrez une [Discussion](https://github.com/boscorelly/GLPI-Bot-IA-Plugin/discussions) pour en discuter avant de coder
 2. Si la fonctionnalité est validée, ouvrez une issue **Feature Request**
 3. Forkez et implémentez (voir ci-dessous)
 
