@@ -5,7 +5,7 @@ Plugin GLPI qui analyse automatiquement les nouveaux tickets et propose des sugg
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![GLPI 10.x](https://img.shields.io/badge/GLPI-10.0%2B-blue)](https://glpi-project.org/)
 [![PHP 7.4+](https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/VOTRE_USER/GLPI-Bot-IA-Plugin/releases)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/boscorelly/GLPI-Bot-IA-Plugin/releases)
 
 ---
 
@@ -48,7 +48,7 @@ Plugin GLPI qui analyse automatiquement les nouveaux tickets et propose des sugg
 cd /var/www/glpi/plugins/
 
 # Cloner — le dossier DOIT s'appeler "glpibotia"
-git clone https://github.com/VOTRE_USER/GLPI-Bot-IA-Plugin.git glpibotia
+git clone https://github.com/boscorelly/GLPI-Bot-IA-Plugin.git glpibotia
 
 # Permissions
 chown -R www-data:www-data glpibotia/
@@ -59,7 +59,7 @@ chown -R www-data:www-data glpibotia/
 ```bash
 cd /var/www/glpi/plugins/
 
-wget https://github.com/VOTRE_USER/GLPI-Bot-IA-Plugin/releases/latest/download/glpibotia-v1.0.0.zip
+wget https://github.com/boscorelly/GLPI-Bot-IA-Plugin/releases/latest/download/glpibotia-v1.0.0.zip
 unzip glpibotia-v1.0.0.zip
 chown -R www-data:www-data glpibotia/
 ```
@@ -358,8 +358,8 @@ git push origin feature/ma-fonctionnalite
 
 ## 💬 Support
 
-- 🐛 **Bugs** : [GitHub Issues](https://github.com/VOTRE_USER/GLPI-Bot-IA-Plugin/issues)
-- 💡 **Idées & questions** : [GitHub Discussions](https://github.com/VOTRE_USER/GLPI-Bot-IA-Plugin/discussions)
+- 🐛 **Bugs** : [GitHub Issues](https://github.com/boscorelly/GLPI-Bot-IA-Plugin/issues)
+- 💡 **Idées & questions** : [GitHub Discussions](https://github.com/boscorelly/GLPI-Bot-IA-Plugin/discussions)
 - 🔐 **Vulnérabilités** : Voir [SECURITY.md](SECURITY.md) — ne pas ouvrir d'issue publique
 
 ---
