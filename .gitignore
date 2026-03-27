@@ -1,0 +1,51 @@
+# ============================================================
+#  GLPI Bot IA Plugin — .gitignore
+# ============================================================
+
+# ── Sécurité : ne JAMAIS commiter ces fichiers ───────────────
+# (même si le .env n'est pas utilisé dans la version plugin,
+#  on l'exclut par précaution si quelqu'un fait des tests locaux)
+.env
+.env.local
+*.env
+
+# Fichiers de configuration locale avec secrets
+local_define.php
+config_db.php
+
+# ── PHP ──────────────────────────────────────────────────────
+*.log
+*.cache
+
+# Dossiers de dépendances PHP
+vendor/
+composer.lock
+
+# ── Éditeurs & IDE ───────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Tests & CI ───────────────────────────────────────────────
+/tests/coverage/
+/.phpunit.result.cache
+/phpunit.xml
+
+# ── Build & releases ─────────────────────────────────────────
+/dist/
+*.zip
+# Sauf les releases officielles dans /releases/
+!/releases/*.zip
+
+# ── Fichiers temporaires ─────────────────────────────────────
+*.tmp
+*.bak
+*.orig
+
+# ── Logs générés par GLPI pendant les tests ─────────────────
+files/
